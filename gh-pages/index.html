@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Form Analizi AI</title>
+    <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+    <header class="hero">
+        <div class="hero__content">
+            <p class="hero__eyebrow">AI Destekli Form Koçu</p>
+            <h1>Form Analizi AI</h1>
+            <p>Egzersiz videolarınızı Gemini Vision ile analiz eden, kişisel antrenör hassasiyetinde geri bildirim sağlayan iOS uygulaması.</p>
+            <div class="hero__actions">
+                <a class="btn btn--primary" href="https://github.com/burakkho/FormAnalizAi">Kaynak Kodu</a>
+                <a class="btn btn--ghost" href="#features">Özellikler</a>
+            </div>
+        </div>
+        <div class="hero__badge">iOS 18 • SwiftUI • MVVM</div>
+    </header>
+
+    <main>
+        <section id="features" class="section">
+            <h2>Başlıca Özellikler</h2>
+            <div class="grid">
+                <article>
+                    <h3>Video Analizi</h3>
+                    <p>AVFoundation ile kaydedilen veya galeriden seçilen videolar optimize edilip Gemini Vision API'ya gönderilir.</p>
+                </article>
+                <article>
+                    <h3>Egzersiz Odaklı Prompts</h3>
+                    <p>Squat, Deadlift, Olympic Lifts dahil 11 hareket için özelleştirilmiş prompt setleri.</p>
+                </article>
+                <article>
+                    <h3>Conversational Chat</h3>
+                    <p>Analiz sonrası kullanıcı, sonuçlarına referans veren AI koç ile konuşarak takip soruları sorabilir.</p>
+                </article>
+                <article>
+                    <h3>StoreKit 2 Abonelikleri</h3>
+                    <p>Günlük 3 ücretsiz analiz ve premium için aylık/yıllık planlar, yerel saklanan geçmiş.</p>
+                </article>
+                <article>
+                    <h3>Gizlilik Öncelikli</h3>
+                    <p>Videolar cihazda tutulur; yalnızca analiz süresince buluta gönderilir, sonuçlar JSON olarak lokal kaydedilir.</p>
+                </article>
+                <article>
+                    <h3>SwiftUI + MVVM</h3>
+                    <p>Actors ve Observation çerçevesi ile modern, test edilebilir servis katmanı.</p>
+                </article>
+            </div>
+        </section>
+
+        <section class="section section--alt">
+            <h2>Kullanıcı Akışı</h2>
+            <ol class="flow">
+                <li>Home ekranından “Yeni Analiz”</li>
+                <li>Egzersiz seçimi</li>
+                <li>Video kaydı veya galeriden seçim</li>
+                <li>Video optimizasyonu + AI analizi</li>
+                <li>Skor, hatalar ve önerileri görüntüleme</li>
+                <li>Opsiyonel sohbet veya geçmişe kaydetme</li>
+            </ol>
+        </section>
+
+        <section class="section">
+            <h2>Dokümantasyon</h2>
+            <p>Repo içinde kapsamlı ürün ve teknik dokümanlar mevcut:</p>
+            <ul class="doc-links">
+                <li><a href="../docs/PROJECT_OVERVIEW.md">Proje Genel Bakış</a></li>
+                <li><a href="../docs/TECHNICAL_ARCHITECTURE.md">Teknik Mimari</a></li>
+                <li><a href="../docs/UI_SPECIFICATIONS.md">UI Spesifikasyonları</a></li>
+                <li><a href="../docs/DEVELOPMENT_ROADMAP.md">Roadmap</a></li>
+            </ul>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <p>© Form Analizi AI • Burak Kho</p>
+        <p>
+            <a href="mailto:hello@formanalizia.app">hello@formanalizia.app</a> •
+            <a href="privacy.html">Gizlilik Politikası</a>
+        </p>
+    </footer>
+</body>
+</html>

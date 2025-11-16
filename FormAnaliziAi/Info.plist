@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>GEMINI_API_KEY</key>
+	<string>$(GEMINI_API_KEY)</string>
+	<key>UILaunchStoryboardName</key>
+	<string>LaunchScreen</string>
+	<key>NSCameraUsageDescription</key>
+	<string>Form Analizi AI egzersiz videolarınızı kaydetmek için kameranıza erişmek istiyor.</string>
+	<key>NSPhotoLibraryUsageDescription</key>
+	<string>Form Analizi AI analiz edilen videolarınızı kaydetmek için foto kütüphanenize erişmek istiyor.</string>
+	<key>NSMicrophoneUsageDescription</key>
+	<string>Form Analizi AI video kaydı sırasında ses almak için mikrofona erişmek istiyor.</string>
+</dict>
+</plist>

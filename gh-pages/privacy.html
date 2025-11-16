@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Gizlilik Politikası • Form Analizi AI</title>
+    <link rel="stylesheet" href="styles.css" />
+    <style>
+        main {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 3rem 1.5rem 4rem;
+        }
+        h1 {
+            text-align: center;
+            margin-bottom: 2rem;
+        }
+        section {
+            margin-bottom: 2rem;
+            padding-bottom: 1.5rem;
+            border-bottom: 1px solid rgba(255, 255, 255, 0.07);
+        }
+        section:last-of-type {
+            border-bottom: none;
+            padding-bottom: 0;
+        }
+        ul {
+            padding-left: 1.2rem;
+        }
+    </style>
+</head>
+<body>
+    <header class="hero">
+        <div class="hero__content">
+            <p class="hero__eyebrow">Gizlilik Politikası</p>
+            <h1>Form Analizi AI</h1>
+            <p>iOS uygulamamızın veri işleme ve saklama politikaları hakkında bilgiler.</p>
+            <div class="hero__actions">
+                <a class="btn btn--ghost" href="index.html">Ana Sayfa</a>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <section>
+            <h2>1. Toplanan Veriler</h2>
+            <p>Form Analizi AI yalnızca aşağıdaki verileri işler:</p>
+            <ul>
+                <li>Egzersiz videolarınız (cihazda saklanır, analiz için Gemini API'ya geçici olarak yüklenir)</li>
+                <li>Analiz sonuçları ve sohbet geçmişi (JSON formatında cihazda saklanır)</li>
+                <li>Abonelik durumu ve günlük analiz sayısı (UserDefaults üzerinden)</li>
+            </ul>
+        </section>
+
+        <section>
+            <h2>2. Veri İşleme ve Saklama</h2>
+            <ul>
+                <li>Videolar analiz sonrasında cihazın Belgeler klasöründe tutulur; uygulama dışına paylaşılmaz.</li>
+                <li>Gemini API'ya gönderilen içerikler yalnızca analiz amacıyla kullanılır ve Google'ın kullanım koşullarına tabidir.</li>
+                <li>Analiz sonuçları, sohbet mesajları ve thumbnail'ler cihazda saklanır; kullanıcı isterse Ayarlar ekranından silebilir.</li>
+            </ul>
+        </section>
+
+        <section>
+            <h2>3. Üçüncü Parti Servisler</h2>
+            <p>Uygulama aşağıdaki servisleri kullanır:</p>
+            <ul>
+                <li><strong>Google Gemini API:</strong> Video analizi ve sohbet yanıtları.</li>
+                <li><strong>Apple StoreKit 2:</strong> Abonelik yönetimi (ödeme bilgileri Apple tarafından işlenir).</li>
+            </ul>
+        </section>
+
+        <section>
+            <h2>4. Kullanıcı Hakları</h2>
+            <ul>
+                <li>Uygulamada saklanan verileri Ayarlar → “Tüm Verileri Sil” ile temizleyebilirsiniz.</li>
+                <li>Videoları manuel olarak da silebilir veya paylaşabilirsiniz.</li>
+                <li>Gemini API üzerinden işlenen içerikleri kaldırmak için Google politikalarına başvurabilirsiniz.</li>
+            </ul>
+        </section>
+
+        <section>
+            <h2>5. İletişim</h2>
+            <p>Gizlilik ile ilgili tüm sorular için <a href="mailto:hello@formanalizia.app">hello@formanalizia.app</a> adresine e‑posta gönderebilirsiniz.</p>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <p>© Form Analizi AI • Burak Kho</p>
+        <p><a href="mailto:hello@formanalizia.app">hello@formanalizia.app</a></p>
+    </footer>
+</body>
+</html>
